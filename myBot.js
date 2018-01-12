@@ -11,9 +11,9 @@ botRem.on('ready', () => {
 
 //Set listener on 'message'
 botRem.on('message', message => {
-  if (message.content === 'ฉันรักเอมิเลีย') {
-    message.reply('ถึงยังไงเรมก็รักสุบารุค่ะ');
+  if (message.content === 'test') {
+    message.reply('test');
   }
 });
 
-botRem.login('YOUR BOT TOKEN HERE!!!');
+botRem.login('NDAxMjY3NTY0MjA4MDYyNDc1.DToBow.sPMdkj62x-VF4mSKJC6b9-FK-Dw');
